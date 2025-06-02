@@ -1,6 +1,9 @@
 {
-  "routes": {
-    "/test": "https://example.com",
-    "/*": "https://stratumstrategie.nl/AA/rudymentair/:splat"
-  }
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://stratumstrategie.nl/AA/rudymenten/$1",
+      "type": 200
+    }
+  ]
 }
