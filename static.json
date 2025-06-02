@@ -1,0 +1,6 @@
+{
+  "routes": {
+    "/test": "https://example.com",
+    "/*": "https://stratumstrategie.nl/AA/rudymentair/:splat"
+  }
+}
