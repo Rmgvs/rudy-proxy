@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://stratumstrategie.nl/AA/rudymentair/$1",
-      "type": 200
-    }
-  ]
-}
